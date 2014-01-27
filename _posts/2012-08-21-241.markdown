@@ -1,0 +1,85 @@
+---
+layout: post
+status: publish
+published: true
+author: admin
+author_login: admin
+author_email: denzeljiang@gmail.com
+wordpress_id: 241
+wordpress_url: http://note.jzr.me/?p=241
+date: 2012-08-21 15:12:57.000000000 -04:00
+categories:
+- Uncategorized
+tags: []
+comments: []
+---
+[root@p2401058 charged.fm]# du -hs *
+20K anon_ftp
+12K cgi-bin
+20K conf
+<del>5.4G email_lists</del>
+56K error_docs
+59M httpdocs
+3.3M httpsdocs
+131M library_charged2011
+29M library_cms
+84K library_facebook
+<del>2.2G logs</del>
+4.0K pd
+8.0K private
+<del>357M statistics</del>
+8.0K subdomains
+47M tests
+
+&nbsp;
+
+&nbsp;
+
+[root@p2401058 bureauapi.com]# du -hs *
+20K anon_ftp
+4.0K bin
+<del>142M bureauapi.com.tar</del>
+<del>129M bureauapi.com.tar.gz</del>
+12K cgi-bin
+16K conf
+56K error_docs
+31M httpdocs
+372K httpsdocs
+4.0K kar
+4.0K mivadata
+24K nbproject
+4.0K pd
+8.0K private
+12K ram
+4.0K rr
+4.0K rsync_media.log
+4.0K sathish
+112M standards
+<del>4.6M standards.tar</del>
+<del>69M statistics</del>
+4.0K subdomains
+4.0K test
+4.0K web_users
+
+&nbsp;
+
+&nbsp;
+<pre class="brush:as3">< mysql> SELECT table_schema "DB Name", sum( data_length + index_length ) / 1024 / 1024 "DB Size in MB" FROM information_schema.TABLES GROUP BY table_schema;
++--------------------+---------------+
+| DB Name | DB Size in MB |
++--------------------+---------------+
+| charged | 4939.38602161 |
+| chargedcms | 769.40978718 |
+| chargedmigrate | 773.51776981 |
+| information_schema | 0.00390625 |
+| meadowlandsparking | 4610.54962635 |
+| mysql | 0.52672958 |
+| phpmyadmin | 0.00781250 |
+| somersetpatriots | 0.68125534 |
++--------------------+---------------+
+8 rows in set, 1 warning (0.06 sec)</pre>
+<pre class="brush:as3"></pre>
+<pre class="brush:sql">mysqldump --host=172.23.3.244 -u root -p chargedcms > chargedcms.sql
+mysqldump --host=172.23.3.244 -u root -p chargedmigrate > chargedmigrate.sql
+mysqldump --host=172.23.3.244 -u root -p charged > charged.sql</pre>
+<pre class="brush:as3"></pre>

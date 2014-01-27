@@ -19,10 +19,15 @@ body {
 img {
   border: none; }
 
-#go-back-home {
+#logo {
   margin: 40px 0 0; }
-  #go-back-home:hover {
+  #logo:hover {
     background-image: none; }
+
+#logo img {
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0 2px 2px 0px rgba(0, 0, 0, 0.3); }
 
 .capitalize {
   text-transform: capitalize; }
@@ -94,7 +99,7 @@ footer {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
-  max-width: 600px;
+  max-width: 768px;
   background: #fff;
   margin: 40px auto 20px;
   border-radius: 7px;
@@ -161,9 +166,9 @@ a, .as-link {
   transition: color 0.3s; }
   a.main, a:hover, .as-link.main, .as-link:hover {
     color: #1d5884;
-    background-image: url(/images/line.png);
-    background-repeat: repeat-x;
-    background-position: left bottom; }
+    /* background-image: url(/images/line.png); */
+    /* background-repeat: repeat-x; */
+    /* background-position: left bottom; */ }
   a.big-button, .as-link.big-button {
     min-width: 30%;
     border-radius: 3px;
@@ -358,6 +363,6 @@ img {
   left: 50%;
   font-size: 60px; }
 .paging .left {
-  margin-left: -340px; }
+  margin-left: -420px; }
 .paging .right {
-  margin-left: 320px; }
+  margin-left: 400px; }

@@ -1,0 +1,31 @@
+---
+layout: post
+status: publish
+published: true
+title: Execute sudo in php
+author: admin
+author_login: admin
+author_email: denzeljiang@gmail.com
+wordpress_id: 434
+wordpress_url: http://note.jzr.me/?p=434
+date: 2013-05-23 00:50:51.000000000 -04:00
+categories:
+- Uncategorized
+tags: []
+comments: []
+---
+
+**It's definitely unsecured but a quick way to do some magic.**
+
+```php
+<?php
+#echo password to sudo
+system('echo "PASS" | sudo -u root -S COMMAND');
+
+#example
+system('echo "password" | sudo -u root -S systemctl restart httpd.service')
+?>
+```
+
+#### References:
+http://www.php.net/manual/en/function.shell-exec.php#101440

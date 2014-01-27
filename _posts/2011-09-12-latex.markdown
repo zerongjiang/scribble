@@ -1,0 +1,64 @@
+---
+layout: post
+status: publish
+published: true
+title: latex
+author: admin
+author_login: admin
+author_email: denzeljiang@gmail.com
+wordpress_id: 97
+wordpress_url: http://note.jzr.me/?p=97
+date: 2011-09-12 08:24:36.000000000 -04:00
+categories:
+- Uncategorized
+tags: []
+comments: []
+---
+ <pre>sudo pacman -S texlive-most texlive-lang
+:: There are 15 members in group texlive-most:
+:: Repository extra
+   1) texlive-bibtexextra  2) texlive-core  3) texlive-fontsextra
+   4) texlive-formatsextra  5) texlive-games  6) texlive-genericextra
+   7) texlive-htmlxml  8) texlive-humanities  9) texlive-latexextra
+   10) texlive-music  11) texlive-pictures  12) texlive-plainextra
+   13) texlive-pstricks  14) texlive-publishers  15) texlive-science
+
+Enter a selection (default=all): 
+:: There are 4 members in group texlive-lang:
+:: Repository extra
+   1) texlive-langcjk  2) texlive-langcyrillic  3) texlive-langextra
+   4) texlive-langgreek
+
+
+
+extra/texlive-bibtexextra 2010.22146-1 (texlive-most)
+    TeX Live - Additional BibTeX styles and bibliography databases
+extra/texlive-core 2010.22154-1 (texlive-most)
+    TeX Live core distribution
+extra/texlive-fontsextra 2010.22053-1 (texlive-most)
+    TeX Live - all sorts of extra fonts
+extra/texlive-formatsextra 2010.22089-1 (texlive-most)
+    TeX Live - collection of extra TeX 'formats'
+extra/texlive-games 2010.20619-2 (texlive-most)
+    TeX Live - Setups for typesetting various board games, including chess
+extra/texlive-genericextra 2010.22096-1 (texlive-most)
+    TeX Live - mixed bag of generic macro packages and fonts
+extra/texlive-htmlxml 2010.21272-1 (texlive-most)
+    TeX Live - Packages to convert LaTeX to XML/HTML, and typeset XML/SGML
+extra/texlive-humanities 2010.22054-1 (texlive-most)
+    TeX Live - LaTeX packages for law, linguistics, social sciences, and humanities
+extra/texlive-latexextra 2010.22155-1 (texlive-most)
+    TeX Live - Large collection of add-on packages for LaTeX
+extra/texlive-music 2010.21982-1 (texlive-most)
+    TeX Live - Music typesetting packages
+extra/texlive-pictures 2010.22101-1 (texlive-most)
+    TeX Live - Packages for drawings graphics
+extra/texlive-plainextra 2010.21462-1 (texlive-most)
+    TeX Live - A collection of add-on packages and macros for plain TeX
+extra/texlive-pstricks 2010.22140-1 (texlive-most)
+    TeX Live - Additional PSTricks packages
+extra/texlive-publishers 2010.22075-1 (texlive-most)
+    TeX Live - LaTeX classes and packages for specific publishers
+extra/texlive-science 2010.22139-1 (texlive-most)
+    TeX Live - Typesetting for natural and computer sciences
+</pre>

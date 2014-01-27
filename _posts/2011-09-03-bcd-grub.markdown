@@ -1,0 +1,28 @@
+---
+layout: post
+status: publish
+published: true
+title: windows7的bcdedit引导GRUB4DOS
+author: admin
+author_login: admin
+author_email: denzeljiang@gmail.com
+wordpress_id: 60
+wordpress_url: http://note.jzr.me/?p=60
+date: 2011-09-03 07:26:35.000000000 -04:00
+categories:
+- Uncategorized
+tags: []
+comments: []
+---
+
+把grldr.mbr，grldr与menu.lst复制到C盘根目录下
+输入以下命令
+
+bcdedit /create /d "GRUB4DOS" /application bootsector
+
+输入命令后，会出来UID，复制它，替换字符串 
+bcdedit /set 字符串 device partition=C: 
+bcdedit /set 字符串 path \grldr.mbr 
+bcdedit /displayorder 字符串 /addlast 
+依次复制替换好的三个命令到CMD运行 
+三个都运行完毕重启就可以在vista的启动菜单显示grub4ods了

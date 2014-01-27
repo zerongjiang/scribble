@@ -1,0 +1,31 @@
+---
+layout: post
+status: publish
+published: true
+title: ssh proxy
+author: admin
+author_login: admin
+author_email: denzeljiang@gmail.com
+wordpress_id: 37
+wordpress_url: http://note.jzr.me/?p=37
+date: 2011-09-03 07:13:26.000000000 -04:00
+categories:
+- Uncategorized
+tags:
+- ssh
+- proxy
+comments: []
+---
+
+```bash
+ssh -qTfnN -D 8080 username@yourhost.com
+alias sshtunnel="ssh -qTfnN -D 8080 username@yourhost.com"
+```
+
+The options are as follows:
+
+* -q : be very quite, we are acting only as a tunnel.
+* -T : Do not allocate a pseudo tty, we are only acting a tunnel.
+* -f : move the ssh process to background, as we don&rsquo;t want to interact with this ssh session directly.
+* -N : Do not execute remote command.
+* -n : redirect standard input to /dev/null.

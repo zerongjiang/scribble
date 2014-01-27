@@ -5,7 +5,7 @@ $background: #f9f9f9;
 h1, h2, h3, h4, h5, strong, b { font-weight: 600; }
 
 html, body { height: 100%; }
-body { 
+body {
   &, * { -webkit-font-smoothing: antialiased; }
   background: $background;
   color: #303030;
@@ -16,7 +16,8 @@ body {
   padding: 0; margin: 0;
 }
 img { border: none; }
-#go-back-home { margin: 40px 0 0; &:hover { background-image: none; } }
+#logo { margin: 40px 0 0; &:hover { background-image: none; } }
+#logo img{ border-radius: 50%; border: 3px solid white; box-shadow: 0 2px 2px 0px rgba(0,0,0,.3);}
 .capitalize { text-transform: capitalize; }
 .upcase { text-transform: uppercase; }
 .downcase { text-transform: lowercase; }
@@ -32,7 +33,7 @@ img { border: none; }
 .colour-3 { color: #484 }
 .text-big { font-size: 24px; line-height: 1em; }
 ol, ol li { padding: 0; margin: 0; }
-blockquote { 
+blockquote {
   margin: 0;
   font-style: normal !important;
 }
@@ -53,7 +54,7 @@ footer {
   @include clearfix;
   @include box-sizing(border-box);
   width: 100%;
-  max-width: 600px;
+  max-width: 768px;
   background: #fff;
   margin: 40px auto 20px;
   border-radius: 7px;
@@ -93,16 +94,16 @@ footer {
 }
 
 a, .as-link {
-  text-decoration: none; 
+  text-decoration: none;
   color: #269;
   line-height: 1.4em;
   @include inline-block;
   @include transition(color 0.3s);
-  &.main, &:hover { 
+  &.main, &:hover {
     color: darken(#269, 5%);
-    background-image: url(/images/line.png);
-    background-repeat: repeat-x;
-    background-position: left bottom;
+    /* background-image: url(/images/line.png); */
+    /* background-repeat: repeat-x; */
+    /* background-position: left bottom; */
   }
   &.big-button {
     min-width: 30%;
@@ -253,6 +254,6 @@ img {
     left: 50%;
     font-size: 60px;
   }
-  .left { margin-left: -340px; }
-  .right {  margin-left: 320px; }
+  .left { margin-left: -420px; }
+  .right {  margin-left: 400px; }
 }

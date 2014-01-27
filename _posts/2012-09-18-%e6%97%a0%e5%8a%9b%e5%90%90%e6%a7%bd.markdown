@@ -1,0 +1,35 @@
+---
+layout: post
+status: publish
+published: true
+title: 无力吐槽
+author: admin
+author_login: admin
+author_email: denzeljiang@gmail.com
+wordpress_id: 254
+wordpress_url: http://note.jzr.me/?p=254
+date: 2012-09-18 23:04:00.000000000 -04:00
+categories:
+- Uncategorized
+tags: []
+comments: []
+---
+公司online的server一直无法ssh自动登录。
+
+debug方法如下：
+<pre class="brush:shell">#sshd debug on 2222
+/usr/sbin/sshd -ddd -p 2222
+
+#try login from client
+ssh user@host -v -p 2222</pre>
+发现原因是
+debug1: trying public key file /root/.ssh/authorized_keys
+debug3: secure_filename: checking '/root/.ssh'
+debug3: secure_filename: checking '/root'
+<span style="color: #ff0000;">Authentication refused: bad ownership or modes for directory /root</span>
+
+sshd会检查目录权限，看了下server的root。 我彻底无语了。不知道之前哪个傻逼改成777？？？
+
+<pre class="brush:shell">
+drwxrwxrwx  18 root root   4096 Sep 18 18:37 root
+#chmod 750 /root</pre>

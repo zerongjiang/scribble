@@ -1,0 +1,24 @@
+---
+layout: post
+status: publish
+published: true
+title: ssl tips
+author: admin
+author_login: admin
+author_email: denzeljiang@gmail.com
+wordpress_id: 440
+wordpress_url: http://note.jzr.me/?p=440
+date: 2013-06-05 22:11:22.000000000 -04:00
+categories:
+- Uncategorized
+tags: []
+comments: []
+---
+
+1.  **generate key pair**
+
+    `openssl req -new -newkey rsa:2048 -nodes -keyout domain.key -out domain.csr`
+
+2.  **convert crt to readable text**
+
+    `openssl x509 -in CRTFILE -text`

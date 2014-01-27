@@ -1,0 +1,23 @@
+---
+layout: post
+status: publish
+published: true
+title: systemd
+author: admin
+author_login: admin
+author_email: denzeljiang@gmail.com
+wordpress_id: 249
+wordpress_url: http://note.jzr.me/?p=249
+date: 2012-09-12 06:02:55.000000000 -04:00
+categories:
+- Uncategorized
+tags: []
+comments: []
+---
+
+折腾了大半天把arch的启动脚本服务管理系统换成了systemd
+
+支持并行启动daemon，速度比以前略快。
+
+仔细看wiki基本没什么问题。 rc.conf rc.local 的时代已经过去了。
+

@@ -1,0 +1,29 @@
+---
+layout: post
+status: publish
+published: true
+title: ibus 1.40 downgrade
+author: admin
+author_login: admin
+author_email: denzeljiang@gmail.com
+wordpress_id: 111
+wordpress_url: http://note.jzr.me/?p=111
+date: 2011-09-29 05:32:45.000000000 -04:00
+categories:
+- Uncategorized
+tags: []
+comments: []
+---
+
+arch作为一个激进的linux发行版，包的版本更新是很快的。
+
+这也带来了管理的麻烦，每次-Syu都心惊肉跳。
+
+无法避免的ibus在今天升级到1.40之后挂掉了。
+
+只能降级到ibus 1.39
+
+&nbsp;
+<pre class="brush:shell">cd /var/cache/pacman/pkg
+
+pacman -U pkg-to-downgrade.pkg.tar.xz</pre>

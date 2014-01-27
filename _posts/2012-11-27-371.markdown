@@ -1,0 +1,59 @@
+---
+layout: post
+status: publish
+published: true
+title: =3=
+author: admin
+author_login: admin
+author_email: denzeljiang@gmail.com
+wordpress_id: 371
+wordpress_url: http://note.jzr.me/?p=371
+date: 2012-11-27 03:00:06.000000000 -05:00
+categories:
+- Uncategorized
+tags: []
+comments: []
+---
+
+```cpp
+#include <stdio.h>
+#include <pthread.h>
+#include <unistd.h>
+pthread_mutex_t mutex_1;
+
+int counter;
+
+void *child1(void *arg)
+{
+    while(1){
+        if(counter > 25){
+            pthread_mutex_unlock(&amp;mutex_1);
+            pthread_exit(NULL);
+        }
+        else{
+            pthread_mutex_lock(&amp;mutex_1);
+            counter++;
+            printf("Child1: counter=%d\n", counter);
+            pthread_mutex_unlock(&amp;mutex_1);
+        }
+        sleep(1);
+    }
+}
+
+int main(void)
+{
+    pthread_t tid1;
+    counter = 0;
+
+    pthread_mutex_init(&amp;mutex_1,NULL);
+    pthread_create(&amp;tid1,NULL,child1,NULL);
+    do{
+        pthread_mutex_lock(&amp;mutex_1);
+        counter++;
+        printf("Main: counter=%d\n", counter);
+        pthread_mutex_unlock(&amp;mutex_1);
+        sleep(1);
+    }while(1);
+    pthread_exit(0);
+}
+```

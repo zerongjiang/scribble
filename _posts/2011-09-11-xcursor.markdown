@@ -1,0 +1,31 @@
+---
+layout: post
+status: publish
+published: true
+title: xcursor
+author: admin
+author_login: admin
+author_email: denzeljiang@gmail.com
+wordpress_id: 94
+wordpress_url: http://note.jzr.me/?p=94
+date: 2011-09-11 09:29:16.000000000 -04:00
+categories:
+- Uncategorized
+tags: []
+comments: []
+---
+
+community/xcursor-bluecurve 0.1.1-3
+    Redhat's Bluecurve X mouse cursor theme
+community/xcursor-chameleon-anthracite 0.5-3
+    Chameleon X Cursor Theme (anthracite flavour)
+community/xcursor-jimmac 2.0-5
+    Jimmac (Jimmac0) cursor theme
+community/xcursor-neutral 1.13a-5
+    A smoothed and shadowed X cursors theme
+community/xcursor-simpleandsoft 0.2-4
+    A simple and soft X cursor theme
+community/xcursor-vanilla-dmz 0.4-5
+    Vanilla DMZ cursor theme
+community/xcursor-vanilla-dmz-aa 0.4-5
+    Vanilla DMZ AA cursor theme

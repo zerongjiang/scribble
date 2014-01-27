@@ -1,0 +1,68 @@
+---
+layout: post
+status: publish
+published: true
+title: spf+dkim
+author: admin
+author_login: admin
+author_email: denzeljiang@gmail.com
+wordpress_id: 457
+wordpress_url: http://note.jzr.me/?p=457
+date: 2013-06-27 15:48:40.000000000 -04:00
+categories:
+- Uncategorized
+tags: []
+comments: []
+---
+spf syntax: http://www.openspf.org/SPF_Record_Syntax
+
+**Common spf example**
+
+|Name  |Type  |Value
+|------|------|-------------------------------------------
+|@     |Text  |v=spf1 a mx ip4:ip.address.allow.email ~all
+
+dkim script:
+
+```bash
+#!/bin/bash
+
+echo -n "Enter domain:"
+read domain
+
+echo "opendkim key generating ..." 
+
+cd /etc/mail/dkim/keys
+mkdir $domain
+opendkim-genkey -D $domain -d $domain -s default
+mv $domain/default.private $domain/default
+chown -R opendkim-milt:opendkim-milt $domain
+
+echo "configure ..."
+echo "*@$domain default._domainkey.$domain" >> /etc/mail/dkim/signingTable
+echo "default._domainkey.$domain $domain:default:/etc/mail/dkim/keys/$domain/default" >> /etc/mail/dkim/keyTable
+
+echo "restarting ..."
+
+/etc/init.d/postfix stop
+/etc/init.d/opendkim stop
+pkill -9 opendkim
+/etc/init.d/opendkim start
+/etc/init.d/postfix start
+
+cat /etc/mail/dkim/keys/$domain/default.txt
+
+echo "done"
+
+exit
+```
+
+|Name              |Type |                      Value
+|------------------|-----|------------------------------------------------------------------------
+|default._domainkey|Text |v=DKIM1; g=*; k=rsa; p=MIGfMA0GCSqGSIb3DQ..............+RXhgVA1lUwIDAQAB
+
+Ref:
+
+http://magick.googlecode.com/svn/trunk/docs/%E9%85%8D%E7%BD%AE%E9%82%AE%E4%BB%B6postfix+SPF+opendkim(centos%205.5)_1.txt
+
+http://www.brandonchecketts.com/emailtest.php
