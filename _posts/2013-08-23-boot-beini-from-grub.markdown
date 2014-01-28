@@ -20,7 +20,7 @@ comments: []
 1.  unarchive beini iso file
 2.  kernel file is bzImage
 
-    pass `tce` parameter to load tce extensions
+    pass `tce` parameter to kernel to load tce extensions
 
 3.  initrd file is tinycore.gz
 

@@ -45,6 +45,7 @@ del C:\WINDOWS\system32\drivers\etc\hosts.tmp
 
 
 ### Some tips
+
 ```bat
 REM make new line
 echo.

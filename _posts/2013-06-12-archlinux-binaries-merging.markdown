@@ -14,33 +14,33 @@ categories:
 tags: []
 comments: []
 ---
-1.  find no-official pkg need to fix:
+1. find no-official pkg need to fix:
 
-    `pacman -Qqo /bin /sbin /usr/sbin | pacman -Qm -`
+   `pacman -Qqo /bin /sbin /usr/sbin | pacman -Qm -`
 
-2.  update official pkgs
+2. update official pkgs
 
-    `pacman -Syu --ignore filesystem,bash`
+   `pacman -Syu --ignore filesystem,bash`
 
-3.  find&move binaries in deprecated folder
+3. find&move binaries in deprecated folder
 
-    `find /bin /sbin /usr/sbin`
+   `find /bin /sbin /usr/sbin`
 
-    `move /bin/* /usr/bin`
+   `move /bin/* /usr/bin`
 
-    `move /sbin/* /usr/bin`
+   `move /sbin/* /usr/bin`
 
-    `move /usr/sbin/* /usr/bin`
+   `move /usr/sbin/* /usr/bin`
 
-4.  update bash, filesystem
+4. update bash, filesystem
 
-    `pacman -S bash`
+   `pacman -S bash`
 
-    `pacman -Su`
+   `pacman -Su`
 
-5.  update no-official pkg
+5. update no-official pkg
 
-    `yaourt -Syu`
+   `yaourt -Syu`
 
 Tip:
 open couple of bash during update for rescue.
