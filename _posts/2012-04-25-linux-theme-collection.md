@@ -6,9 +6,7 @@ title: 精简
 author: admin
 author_login: admin
 author_email: denzeljiang@gmail.com
-wordpress_id: 201
-wordpress_url: http://note.jzr.me/?p=201
-date: 2012-04-25 22:26:21.000000000 -04:00
+date: 2012-04-25 22:26:21
 categories:
 - Uncategorized
 tags: []

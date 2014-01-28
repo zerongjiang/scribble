@@ -6,9 +6,7 @@ title: dotfiles implement
 author: admin
 author_login: admin
 author_email: denzeljiang@gmail.com
-wordpress_id: 506
-wordpress_url: http://note.jzr.me/?p=506
-date: 2013-10-08 01:15:56.000000000 -04:00
+date: 2013-10-08 01:15:56
 categories:
 - Uncategorized
 tags: []

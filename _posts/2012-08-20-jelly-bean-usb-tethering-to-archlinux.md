@@ -6,9 +6,7 @@ title: Jelly Bean usb tethering to archlinux
 author: admin
 author_login: admin
 author_email: denzeljiang@gmail.com
-wordpress_id: 239
-wordpress_url: http://note.jzr.me/?p=239
-date: 2012-08-20 17:35:19.000000000 -04:00
+date: 2012-08-20 17:35:19
 categories:
 - Uncategorized
 tags: []

@@ -6,9 +6,7 @@ title: multi-monitors setting
 author: admin
 author_login: admin
 author_email: denzeljiang@gmail.com
-wordpress_id: 120
-wordpress_url: http://note.jzr.me/?p=120
-date: 2012-03-15 06:21:53.000000000 -04:00
+date: 2012-03-15 06:21:53
 categories:
 - Uncategorized
 tags: []

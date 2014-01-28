@@ -6,9 +6,7 @@ title: t410 Color Calibratiion
 author: admin
 author_login: admin
 author_email: denzeljiang@gmail.com
-wordpress_id: 317
-wordpress_url: http://note.jzr.me/?p=317
-date: 2012-10-16 22:18:53.000000000 -04:00
+date: 2012-10-16 22:18:53
 categories:
 - Uncategorized
 tags: []

@@ -6,9 +6,7 @@ title: VMWare 7.1.4 on archlinux kernel 3.0
 author: admin
 author_login: admin
 author_email: denzeljiang@gmail.com
-wordpress_id: 70
-wordpress_url: http://note.jzr.me/?p=70
-date: 2011-09-05 07:21:51.000000000 -04:00
+date: 2011-09-05 07:21:51
 categories:
 - Uncategorized
 tags: []

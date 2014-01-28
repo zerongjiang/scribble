@@ -6,9 +6,7 @@ title: 足迹地图开发手记
 author: admin
 author_login: admin
 author_email: denzeljiang@gmail.com
-wordpress_id: 174
-wordpress_url: http://note.jzr.me/?p=174
-date: 2012-04-07 07:57:58.000000000 -04:00
+date: 2012-04-07 07:57:58
 categories:
 - Uncategorized
 tags: []

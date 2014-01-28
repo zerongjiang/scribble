@@ -6,9 +6,7 @@ title: font-family priorities
 author: admin
 author_login: admin
 author_email: denzeljiang@gmail.com
-wordpress_id: 496
-wordpress_url: http://note.jzr.me/?p=496
-date: 2013-09-15 01:51:15.000000000 -04:00
+date: 2013-09-15 01:51:15
 categories:
 - Uncategorized
 tags: []

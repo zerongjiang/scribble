@@ -6,9 +6,7 @@ title: solarized color scheme for chrome nassh secure shell
 author: admin
 author_login: admin
 author_email: denzeljiang@gmail.com
-wordpress_id: 494
-wordpress_url: http://note.jzr.me/?p=494
-date: 2013-09-07 21:48:23.000000000 -04:00
+date: 2013-09-07 21:48:23
 categories:
 - Uncategorized
 tags: []

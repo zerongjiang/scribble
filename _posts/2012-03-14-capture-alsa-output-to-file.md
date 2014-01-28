@@ -6,9 +6,7 @@ title: capture alsa output to file
 author: admin
 author_login: admin
 author_email: denzeljiang@gmail.com
-wordpress_id: 145
-wordpress_url: http://note.jzr.me/?p=145
-date: 2012-03-14 07:02:49.000000000 -04:00
+date: 2012-03-14 07:02:49
 categories:
 - Uncategorized
 tags: []

@@ -6,9 +6,7 @@ title: all about ed2k
 author: admin
 author_login: admin
 author_email: denzeljiang@gmail.com
-wordpress_id: 43
-wordpress_url: http://note.jzr.me/?p=43
-date: 2011-09-03 07:17:04.000000000 -04:00
+date: 2011-09-03 07:17:04
 categories:
 - Uncategorized
 tags: []

@@ -6,9 +6,7 @@ title: install pecl using phpize
 author: admin
 author_login: admin
 author_email: denzeljiang@gmail.com
-wordpress_id: 185
-wordpress_url: http://note.jzr.me/?p=185
-date: 2012-04-09 23:06:52.000000000 -04:00
+date: 2012-04-09 23:06:52
 categories:
 - Uncategorized
 tags: []

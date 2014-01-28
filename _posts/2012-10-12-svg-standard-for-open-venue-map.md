@@ -6,9 +6,7 @@ title: 'svg standard for open venue map '
 author: admin
 author_login: admin
 author_email: denzeljiang@gmail.com
-wordpress_id: 298
-wordpress_url: http://note.jzr.me/?p=298
-date: 2012-10-12 09:09:00.000000000 -04:00
+date: 2012-10-12 09:09:00
 categories:
 - Uncategorized
 tags: []

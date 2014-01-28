@@ -6,9 +6,7 @@ title: 今天把bin给删了。。。
 author: admin
 author_login: admin
 author_email: denzeljiang@gmail.com
-wordpress_id: 367
-wordpress_url: http://note.jzr.me/?p=367
-date: 2012-11-16 00:56:27.000000000 -05:00
+date: 2012-11-16 00:56:27
 categories:
 - Uncategorized
 tags: []

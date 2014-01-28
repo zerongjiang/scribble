@@ -6,9 +6,7 @@ title: improve sshfs performance
 author: admin
 author_login: admin
 author_email: denzeljiang@gmail.com
-wordpress_id: 416
-wordpress_url: http://note.jzr.me/?p=416
-date: 2013-05-06 19:55:26.000000000 -04:00
+date: 2013-05-06 19:55:26
 categories:
 - Uncategorized
 tags: []

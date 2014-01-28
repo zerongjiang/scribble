@@ -6,9 +6,7 @@ title: pure systemd
 author: admin
 author_login: admin
 author_email: denzeljiang@gmail.com
-wordpress_id: 339
-wordpress_url: http://note.jzr.me/?p=339
-date: 2012-11-08 22:59:54.000000000 -05:00
+date: 2012-11-08 22:59:54
 categories:
 - Uncategorized
 tags: []

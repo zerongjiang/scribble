@@ -6,9 +6,7 @@ title: terminal 256 color test script
 author: admin
 author_login: admin
 author_email: denzeljiang@gmail.com
-wordpress_id: 482
-wordpress_url: http://note.jzr.me/?p=482
-date: 2013-08-15 15:42:32.000000000 -04:00
+date: 2013-08-15 15:42:32
 categories:
 - Uncategorized
 tags: []

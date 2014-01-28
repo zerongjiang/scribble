@@ -6,9 +6,7 @@ title: awesome mouse&key bindings
 author: admin
 author_login: admin
 author_email: denzeljiang@gmail.com
-wordpress_id: 31
-wordpress_url: http://note.jzr.me/?p=31
-date: 2011-09-03 07:09:26.000000000 -04:00
+date: 2011-09-03 07:09:26
 categories:
 - Uncategorized
 tags:

@@ -6,9 +6,7 @@ title: archlinux binaries merging
 author: admin
 author_login: admin
 author_email: denzeljiang@gmail.com
-wordpress_id: 443
-wordpress_url: http://note.jzr.me/?p=443
-date: 2013-06-12 17:50:36.000000000 -04:00
+date: 2013-06-12 17:50:36
 categories:
 - Uncategorized
 tags: []

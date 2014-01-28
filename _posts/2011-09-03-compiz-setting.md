@@ -6,9 +6,7 @@ title: compiz setting 实用设置
 author: admin
 author_login: admin
 author_email: denzeljiang@gmail.com
-wordpress_id: 64
-wordpress_url: http://note.jzr.me/?p=64
-date: 2011-09-03 07:30:16.000000000 -04:00
+date: 2011-09-03 07:30:16
 categories:
 - Uncategorized
 tags: []

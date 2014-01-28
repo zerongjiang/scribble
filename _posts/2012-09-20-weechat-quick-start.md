@@ -6,9 +6,7 @@ title: weechat quick start
 author: admin
 author_login: admin
 author_email: denzeljiang@gmail.com
-wordpress_id: 261
-wordpress_url: http://note.jzr.me/?p=261
-date: 2012-09-20 20:13:54.000000000 -04:00
+date: 2012-09-20 20:13:54
 categories:
 - Uncategorized
 tags: []

@@ -6,9 +6,7 @@ title: thinkpad trackpoint&synaptics配置
 author: admin
 author_login: admin
 author_email: denzeljiang@gmail.com
-wordpress_id: 41
-wordpress_url: http://note.jzr.me/?p=41
-date: 2011-09-03 07:16:07.000000000 -04:00
+date: 2011-09-03 07:16:07
 categories:
 - Uncategorized
 tags:

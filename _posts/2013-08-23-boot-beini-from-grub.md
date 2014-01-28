@@ -6,9 +6,7 @@ title: boot beini from grub
 author: admin
 author_login: admin
 author_email: denzeljiang@gmail.com
-wordpress_id: 486
-wordpress_url: http://note.jzr.me/?p=486
-date: 2013-08-23 01:24:29.000000000 -04:00
+date: 2013-08-23 01:24:29
 categories:
 - Uncategorized
 tags: []

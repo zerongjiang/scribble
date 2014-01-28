@@ -6,9 +6,7 @@ title: LAMP archlinux
 author: admin
 author_login: admin
 author_email: denzeljiang@gmail.com
-wordpress_id: 320
-wordpress_url: http://note.jzr.me/?p=320
-date: 2012-10-18 19:30:11.000000000 -04:00
+date: 2012-10-18 19:30:11
 categories:
 - Uncategorized
 tags: []

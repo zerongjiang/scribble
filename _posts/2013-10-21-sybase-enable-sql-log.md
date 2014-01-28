@@ -6,9 +6,7 @@ title: Enable sybase sql log
 author: admin
 author_login: admin
 author_email: denzeljiang@gmail.com
-wordpress_id: 515
-wordpress_url: http://note.jzr.me/?p=515
-date: 2013-10-21 18:44:37.000000000 -04:00
+date: 2013-10-21 18:44:37
 categories:
 - Uncategorized
 tags: []

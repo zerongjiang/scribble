@@ -6,9 +6,7 @@ title: youtube-dl video formats
 author: admin
 author_login: admin
 author_email: denzeljiang@gmail.com
-wordpress_id: 478
-wordpress_url: http://note.jzr.me/?p=478
-date: 2013-07-20 02:21:58.000000000 -04:00
+date: 2013-07-20 02:21:58
 categories:
 - Uncategorized
 tags: []

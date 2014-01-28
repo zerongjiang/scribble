@@ -6,9 +6,7 @@ title: 'awesome thinkpad volume hotkey '
 author: admin
 author_login: admin
 author_email: denzeljiang@gmail.com
-wordpress_id: 48
-wordpress_url: http://note.jzr.me/?p=48
-date: 2011-09-03 07:19:09.000000000 -04:00
+date: 2011-09-03 07:19:09
 categories:
 - Uncategorized
 tags: []

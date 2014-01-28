@@ -6,9 +6,7 @@ title: wifi connecting using iwconfig&wpa_supplicant
 author: admin
 author_login: admin
 author_email: denzeljiang@gmail.com
-wordpress_id: 50
-wordpress_url: http://note.jzr.me/?p=50
-date: 2011-09-03 07:19:30.000000000 -04:00
+date: 2011-09-03 07:19:30
 categories:
 - Uncategorized
 tags: []

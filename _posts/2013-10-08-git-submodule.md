@@ -6,9 +6,7 @@ title: Git submodule workflow
 author: admin
 author_login: admin
 author_email: denzeljiang@gmail.com
-wordpress_id: 511
-wordpress_url: http://note.jzr.me/?p=511
-date: 2013-10-08 01:48:25.000000000 -04:00
+date: 2013-10-08 01:48:25
 categories:
 - Uncategorized
 tags: []

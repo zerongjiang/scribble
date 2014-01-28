@@ -6,9 +6,7 @@ title: CentOS Install
 author: admin
 author_login: admin
 author_email: denzeljiang@gmail.com
-wordpress_id: 215
-wordpress_url: http://note.jzr.me/?p=215
-date: 2012-06-20 10:03:32.000000000 -04:00
+date: 2012-06-20 10:03:32
 categories:
 - Uncategorized
 tags: []

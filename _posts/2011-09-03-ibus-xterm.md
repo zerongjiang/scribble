@@ -6,9 +6,7 @@ title: ibus xterm 中文输入
 author: admin
 author_login: admin
 author_email: denzeljiang@gmail.com
-wordpress_id: 56
-wordpress_url: http://note.jzr.me/?p=56
-date: 2011-09-03 07:21:38.000000000 -04:00
+date: 2011-09-03 07:21:38
 categories:
 - Uncategorized
 tags: []

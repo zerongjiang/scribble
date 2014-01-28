@@ -6,9 +6,7 @@ title: archlinux software lists
 author: admin
 author_login: admin
 author_email: denzeljiang@gmail.com
-wordpress_id: 263
-wordpress_url: http://note.jzr.me/?p=263
-date: 2012-09-21 06:25:43.000000000 -04:00
+date: 2012-09-21 06:25:43
 categories:
 - Uncategorized
 tags: []

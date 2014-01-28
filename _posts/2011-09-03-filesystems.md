@@ -6,9 +6,7 @@ title: Linux filesystems side by side
 author: admin
 author_login: admin
 author_email: denzeljiang@gmail.com
-wordpress_id: 66
-wordpress_url: http://note.jzr.me/?p=66
-date: 2011-09-03 07:32:57.000000000 -04:00
+date: 2011-09-03 07:32:57
 categories:
 - Uncategorized
 tags: []

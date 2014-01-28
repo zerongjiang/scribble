@@ -6,9 +6,7 @@ title: Merge flv videos by ffmpeg
 author: admin
 author_login: admin
 author_email: denzeljiang@gmail.com
-wordpress_id: 463
-wordpress_url: http://note.jzr.me/?p=463
-date: 2013-07-01 15:42:15.000000000 -04:00
+date: 2013-07-01 15:42:15
 categories:
 - Uncategorized
 tags: []

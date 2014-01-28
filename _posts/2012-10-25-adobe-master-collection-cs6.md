@@ -6,9 +6,7 @@ title: Adobe Master Collection CS6
 author: admin
 author_login: admin
 author_email: denzeljiang@gmail.com
-wordpress_id: 332
-wordpress_url: http://note.jzr.me/?p=332
-date: 2012-10-25 19:51:09.000000000 -04:00
+date: 2012-10-25 19:51:09
 categories:
 - Uncategorized
 tags: []

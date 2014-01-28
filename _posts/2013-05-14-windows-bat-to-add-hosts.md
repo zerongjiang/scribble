@@ -6,9 +6,7 @@ title: windows bat to add hosts
 author: admin
 author_login: admin
 author_email: denzeljiang@gmail.com
-wordpress_id: 423
-wordpress_url: http://note.jzr.me/?p=423
-date: 2013-05-14 15:57:48.000000000 -04:00
+date: 2013-05-14 15:57:48
 categories:
 - Uncategorized
 tags: []
