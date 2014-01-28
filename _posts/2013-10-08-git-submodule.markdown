@@ -17,21 +17,21 @@ comments: []
 
 ### git submodule workflow
 
-1.  Add submodule repo.git
+1. Add submodule repo.git
 
-    `git submodule add repo.git ./path/to/submodule`
+   `git submodule add repo.git ./path/to/submodule`
 
-2.  Update submodule
+2. Update submodule
 
-    `git submodule foreach git pull`
+   `git submodule foreach git pull`
 
-3.  If submodule contain submodule
+3. If submodule contain submodule
 
-    `git submodule update --recursive`
+   `git submodule update --recursive`
 
-3.  Specify branch to update
+3. Specify branch to update
 
-    `git submodule foreach git pull origin master`
+   `git submodule foreach git pull origin master`
 
 ---
 
