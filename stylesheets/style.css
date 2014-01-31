@@ -20,14 +20,13 @@ img {
   border: none; }
 
 #logo {
-  margin: 40px 0 0; }
-  #logo:hover {
-    background-image: none; }
-
-#logo img {
+  margin: 40px 0 0;
   border-radius: 50%;
   border: 3px solid white;
   box-shadow: 0 2px 2px 0px rgba(0, 0, 0, 0.3); }
+
+#logo img {
+  border-radius: 50%; }
 
 .capitalize {
   text-transform: capitalize; }
@@ -365,3 +364,8 @@ img {
   margin-left: -420px; }
 .paging .right {
   margin-left: 400px; }
+
+footer .host {
+  float: right;
+  width: 60px;
+  margin-top: -30px; }
